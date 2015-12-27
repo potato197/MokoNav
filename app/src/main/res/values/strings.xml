@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Moko Nav</string>
+    <string name="chosen">MOKO!Elite</string>
+    <string name="channel">MOKO Channel</string>
+    <string name="photographer">摄影造型 Photographer/Stylist</string>
+    <string name="models">模特儿 Models</string>
+    <string name="design">设计插画 Design/Illustration</string>
+    <string name="actor">演员主持 Actor/Actress Host</string>
+    <string name="music">音乐 Music</string>
+    <string name="movie">电影电视 Movie/Television</string>
+    <string name="advertising">广告传媒 Advertising/Media</string>
+    <string name="arts">艺术 Arts</string>
+    <string name="more">更多行业 More...</string>
+    <string name="loading">Loading</string>
+    <string name="retry">Retry</string>
+    <string name="connection_fail">Connection failed!</string>
+    <string name="dummy_channeltitle">Channel Title</string>
+</resources>
