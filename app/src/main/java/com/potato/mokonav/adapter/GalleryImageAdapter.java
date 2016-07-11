@@ -61,9 +61,9 @@ public class GalleryImageAdapter
     }
 
     localWebImageView.reset();
+    localWebImageView.setNoImageDrawable(R.drawable.logo);
     localWebImageView.setImageUrl((String) this.imageUrls.get(paramInt));
     localWebImageView.loadImage();
-    localWebImageView.setNoImageDrawable(R.drawable.logo);
     onGetView(paramInt, paramView, paramViewGroup);
     return paramView;
   }
