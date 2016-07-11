@@ -15,4 +15,7 @@
     <string name="retry">Retry</string>
     <string name="connection_fail">Connection failed!</string>
     <string name="dummy_channeltitle">Channel Title</string>
+    <string name="firstpage">First page</string>
+    <string name="lastpage">Last page</string>
+    <string name="site">Site</string>
 </resources>

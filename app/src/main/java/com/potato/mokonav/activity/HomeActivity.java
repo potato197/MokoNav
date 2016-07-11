@@ -147,25 +147,25 @@ public class HomeActivity extends AppCompatActivity {
          this.mChannelsListView.setOnItemClickListener(new AdapterView.OnItemClickListener()
         {
             public void onItemClick(AdapterView<?> paramAnonymousAdapterView, View paramAnonymousView, int paramAnonymousInt, long paramAnonymousLong)
-            {/*
+            {
                 Intent localIntent = new Intent();
                 localIntent.setClass(HomeActivity.this, ChannelActivity.class);
                 Bundle localBundle = new Bundle();
                 localBundle.putInt("channel", paramAnonymousInt + 1);
                 localIntent.putExtras(localBundle);
-                HomeActivity.this.startActivity(localIntent);*/
+                HomeActivity.this.startActivity(localIntent);
             }
         });
         this.mButton.setOnClickListener(new View.OnClickListener()
         {
             public void onClick(View paramAnonymousView)
-            {/*
+            {
                 Intent localIntent = new Intent();
                 localIntent.setClass(HomeActivity.this, ChannelActivity.class);
                 Bundle localBundle = new Bundle();
                 localBundle.putInt("channel", 0);
                 localIntent.putExtras(localBundle);
-                HomeActivity.this.startActivity(localIntent);*/
+                HomeActivity.this.startActivity(localIntent);
             }
         });
         if (MokoApplication.isWiFiActive(this))
